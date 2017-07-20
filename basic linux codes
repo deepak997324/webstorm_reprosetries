@@ -1,0 +1,63 @@
+for wifi network establishment
+sudo service network-manager restart
+all commands run when you are in specified folder 
+git basic command
+git clone https
+git remote show origin
+git status
+git add .(or specified file name)
+git commit -m "your message"
+git push
+git remote add upstream 
+git remote -v
+
+geocoding api key AIzaSyBzvtCIhZ0FbZ4YJV4Y4VURf1NFFUy5i0I
+
+general apikey
+weather-172619(11 project remaining)
+apikey-AIzaSyBWRAE6O0dJcTZdE_R5cRddIfASRyHmzzE
+
+dark sky api key-cf84832eea8ff5895be0c532bef4bca8
+insta api access token-0d56125570f74faf80e738ca3b24eb6b
+   2ed1c56fc7294412ac9d57a2c1fd41e0
+1203
+shivamgandhi00@gmail.com
+shauryaparashar932@gmail.com
+
+https://www.elastic.co/
+
+how to set path of mongo db in particular project___
+mongod --dbpath ./db
+
+__in case of addr already in use__
+ps wuax  | grep mongo
+sudo kill (id probaly second keyword)
+
+jonny-five.io
+iot
+sql injection
+
+lazy loading
+--scroll.y(give position of scroll)
+data-url carry url_of_image when scroll hit position then data-url copy to src(initially src was blank)
+
+
+aws
+firefox
+
+authinticated authorise
+
+npm request 
+defi halmen algorithm
+
+
+
+
+cross site scripting
+brace expension attack
+
+sudo service mongodb start 
+mongo
+sudo service mongodb stop
+
+
