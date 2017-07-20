@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>login portal</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body{
+            background:url(pattern8-pattern-58b.png);
+            background-repeat: repeat;
+
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="row flex-center" style="height: 100vh" >
+    <div class="col-sm-12 col-md-8 col-lg-6 col-xl-6">
+        <ul class="nav nav-tabs tabs-2 indigo" role="tablist">
+            <li class="nav-item" style="width: 50%" id="login">
+                <a class="nav-link active" data-toggle="tab" href="#panel5" role="tab"><i class="fa fa-users"></i> Login :</a>
+            </li>
+            <li class="nav-item" style="width: 50%" id="Signup">
+                <a class="nav-link" data-toggle="tab" href="#panel6" role="tab"><i class="fa fa-user-plus"></i> Sign Up :</a>
+            </li>
+        </ul>
+
+        <br>
+        <br>
+        <!-- Tab panels -->
+        <div class="tab-content">
+            <!--Panel 1-->
+            <div class="tab-pane fade in show active" id="panel5" role="tabpanel">
+                <div class="card">
+                    <div class="card-block">
+
+                        <!--Header-->
+                        <div class="form-header  purple darken-4">
+                            <h3><i class="fa fa-lock"></i> Login :</h3>
+                        </div>
+
+                        <!--Body-->
+                        <div class="md-form">
+                            <i class="fa fa-envelope prefix"></i>
+                            <input type="text"  class="form-control" id="text1">
+                            <label >Email Id</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fa fa-lock prefix"></i>
+                            <input type="password"  class="form-control" id="password1">
+                            <label >Your password</label>
+                        </div>
+
+                        <div class="text-center">
+                            <button class="btn btn-deep-purple login" id="login1">Login</button>
+                        </div>
+
+                    </div>
+
+                    <!--Footer-->
+                    <div class="modal-footer">
+                        <div class="options">
+                            <p>Forgot <a href="#">Password?</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--/.Panel 1-->
+            <!--Panel 2-->
+            <div class="tab-pane fade" id="panel6" role="tabpanel">
+                <div class="card">
+                    <div class="card-block">
+
+                        <!--Header-->
+                        <div class="form-header blue-gradient">
+                            <h3><i class="fa fa-user"></i> Register:</h3>
+                        </div>
+
+                        <!--Body-->
+                        <div class="md-form">
+                            <i class="fa fa-user prefix"></i>
+                            <input type="text" id="form3" class="form-control">
+                            <label for="form3">Your name</label>
+                        </div>
+                        <div class="md-form">
+                            <i class="fa fa-envelope prefix"></i>
+                            <input type="text" id="form2" class="form-control">
+                            <label for="form2">Your email</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fa fa-lock prefix"></i>
+                            <input type="password" id="form4" class="form-control">
+                            <label for="form4">Your password</label>
+                        </div>
+                        <div class="md-form">
+                            <i class="fa fa-lock prefix"></i>
+                            <input type="password" id="form5" class="form-control">
+                            <label for="form4">Confirm Password</label>
+                        </div>
+
+                        <div class="text-center">
+                            <button class="btn btn-indigo" id="signup1">Sign up</button>
+                            <hr>
+                            <fieldset class="form-group">
+                                <input type="checkbox" id="checkbox1">
+                                <label for="checkbox1">Subscribe me to the newsletter</label>
+                            </fieldset>
+                        </div>
+
+                    </div>
+                </div>
+                <!--/Form with header-->
+
+
+            </div>
+        </div>
+
+
+</div>
+</div>
+</div>
+
+
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>
